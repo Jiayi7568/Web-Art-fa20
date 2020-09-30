@@ -1,0 +1,28 @@
+* {margin:0; padding: 0}
+p{}
+body{
+  background-color: blue;
+}
+div {
+  width: 400px;
+  height: 50%;
+  background-color: orangered;
+  margin: 0 auto;
+}
+
+
+html {
+  font-family: sans-serif;
+
+}
+
+.container {
+  width: 80;
+  background:lightpink;
+  height: 800px;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  
+
+}
