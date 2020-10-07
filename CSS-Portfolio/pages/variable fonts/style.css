@@ -1,0 +1,34 @@
+
+body{
+  background-color: blue;
+}
+.container2 h1 {
+  font-family: "Tablet Gothic Regular";
+color: rgb(255, 146, 0);
+font-size: 100px;
+background-color: rgb(255, 38, 0);
+text-align: center;
+line-height: 14%;
+font-variation-settings: "wght" 795.833, "wdth" 6.33333;
+
+}
+.container2 h2 {
+  font-family: "Tablet Gothic Regular";
+font-size: 64.9248px;
+text-align: left;
+color: rgb(255, 146, 0);
+font-variation-settings: "wght" 300, "wdth" 7;
+line-height: 129.6875%;
+
+}
+.container2 h2:hover {
+  --text-GRAD: 130;
+}
+.container2 p {
+  font-size: 20px;
+font-family: "Tablet Gothic Regular";
+font-variation-settings: "wght" 400, "wdth" 5;
+text-align: right;
+color: rgb(255, 38, 0);
+
+}
