@@ -12,7 +12,7 @@ html{
 }
 
 header{
-  padding: 10vmin;
+  padding: 0.1vmin;
   background: #0008;
   margin-bottom: 2vmin;
   text-align: center;
@@ -21,16 +21,18 @@ header{
 
 
 header h1{
-  font-size:20vmin;
+  font-size: 100px;
 }
 
 
-.wrapper {
-  background: pink;
-  width: 100vw;
-  max-width: 1200px;
-  height: 100vh;
-  margin: 0 auto;
 
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+.gallery_item{
+  margin: 2vmin;
+}
