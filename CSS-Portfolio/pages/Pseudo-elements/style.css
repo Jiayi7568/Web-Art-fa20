@@ -4,15 +4,15 @@ body{
   
   font-size: 50px;
   margin: 500px;
-  color: red;
+  color: black;
 
 }
 
 p::before{
   content: '::before';
-  background: orange;
+  background: red;
   font-size: 20px;
-  color: blue;
+  color: red;
   font-weight: 900;
   display: block;
 
@@ -20,14 +20,14 @@ p::before{
 
 p::after{
   content: '::after';
-  background: orange ;
+  background: red ;
   font-size: 20px;
   color: blue;
   font-weight: 900;
   display: block;
 
 } 
-
+ 
 .p::selection {
   color: red; 
   background: yellow;
