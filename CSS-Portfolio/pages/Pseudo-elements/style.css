@@ -10,7 +10,7 @@ body{
 
 p::before{
   content: '::before';
-  background: red;
+  background: blue;
   font-size: 20px;
   color: red;
   font-weight: 900;
