@@ -1,0 +1,95 @@
+.box {
+  background: lightgreen;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+}
+
+.test {
+  font-size: 200px;
+
+  background-color: b;
+}
+
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+body {
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Navigation Settings */
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 50%;
+	height: 70px;
+	background:rgb(255, 0, 0);
+}
+
+nav li {
+	display: block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: #331207;
+	text-transform: uppercase;
+}
+
+section {
+	height: 100vh;
+}
+
+#screen1 {
+	background:linear-gradient(35deg, #d4e7d9, #FFCCCC);
+}
+
+#screen1 p {
+	padding-top: 200px;
+}
+
+#screen2 {
+  background: linear-gradient(35deg, #350402, #ad918a);
+}
+  
+  #screen2 p {
+    padding-top: 200px;
+  }
+
+
+#screen3 {
+	background: #f3dedd;
+}
+
+#screen4 {
+	background: #350402;
+}
+#screen1 p {
+	padding-top: 200px;
+}
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 10px;
+	}
+
+}
