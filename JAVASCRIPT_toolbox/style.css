@@ -3,29 +3,36 @@ h1 {
 }
 
 
-#image {
-  width: 20vmin;
-  height: 2j0vmin;
-  margin: 400px;
+#img {
+  width: 100vmin;
+  height: 100vmin;
+ margin: 250px;
   
 }
 
 .rotate {
-  animation: rotateImage 2s infinite linear;
+  animation: rotateBox 2s infinite linear;
 }
 
+.cool-box {
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 0, 255);
+  display: inline-block;
+  margin: 5px;
+}
 
 .space-filler {
   width: 20vw;
   height: 500vh;
-  background: rgb(35, 153, 192);
+  background: lightblue;
 }
 
 .some-text {
   position: absolute;
 }
 
-@keyframes rotateImage {
+@keyframes rotateBox {
   from { transform: rotateZ(0deg);}
   to { transform: rotateZ(360deg);}
 }
