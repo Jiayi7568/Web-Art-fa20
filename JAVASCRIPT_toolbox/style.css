@@ -1,0 +1,31 @@
+h1 {
+  color: blue;
+}
+
+
+#image {
+  width: 20vmin;
+  height: 2j0vmin;
+  margin: 400px;
+  
+}
+
+.rotate {
+  animation: rotateImage 2s infinite linear;
+}
+
+
+.space-filler {
+  width: 20vw;
+  height: 500vh;
+  background: rgb(35, 153, 192);
+}
+
+.some-text {
+  position: absolute;
+}
+
+@keyframes rotateImage {
+  from { transform: rotateZ(0deg);}
+  to { transform: rotateZ(360deg);}
+}
