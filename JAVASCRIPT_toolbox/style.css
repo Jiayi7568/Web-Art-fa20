@@ -1,17 +1,17 @@
-h1 {
-  color: blue;
-}
+
 
 
 #img {
-  width: 100vmin;
-  height: 100vmin;
- margin: 250px;
+  width: 60vmin;
+  height: 60vmin;
+  margin-top: 10%;
+  margin-left: 30%;
   
 }
 
+
 .rotate {
-  animation: rotateBox 2s infinite linear;
+  animation: rotateBox 5s infinite linear;
 }
 
 .cool-box {
